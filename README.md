@@ -79,6 +79,71 @@ Examples of problems this toolkit can help solve:
 - parse log files for troubleshooting or reporting
 - automate repetitive file-processing tasks with predictable command-line tools
 
+## Portfolio Cases
+
+### 1. CSV Data Cleanup Before Import
+**Problem:** exported CSV files often contain inconsistent values, duplicates, missing structure, or formatting noise.
+
+**What this solves:**
+- trim and normalize raw values
+- remove duplicate rows
+- validate required columns
+- prepare cleaner datasets before import into another system
+
+**Relevant tool:** [DataCleaner](https://github.com/misha07j-lab/DataCleaner)
+
+---
+
+### 2. File Format Transformation Between Systems
+**Problem:** teams and tools often exchange data in different formats, creating friction in handoff and automation.
+
+**What this solves:**
+- convert CSV to JSON
+- convert JSON to CSV
+- simplify data handoff between tools
+- create repeatable format-conversion steps for operational workflows
+
+**Relevant tool:** [CsvJsonConverter](https://github.com/misha07j-lab/CsvJsonConverter)
+
+---
+
+### 3. Lightweight ETL for Small Operational Workflows
+**Problem:** many recurring data tasks need filtering and transformation, but do not justify building a full ETL platform.
+
+**What this solves:**
+- filter tabular records
+- transform small datasets
+- process recurring operational exports
+- create lightweight repeatable ETL-style steps
+
+**Relevant tool:** [MiniETL-CLI](https://github.com/misha07j-lab/MiniETL-CLI)
+
+---
+
+### 4. Log Parsing and Signal Extraction
+**Problem:** raw log files are noisy and time-consuming to review manually.
+
+**What this solves:**
+- filter relevant records
+- reduce manual log review effort
+- isolate actionable signal
+- prepare outputs for troubleshooting, reporting, or follow-up automation
+
+**Relevant tool:** [LogParser](https://github.com/misha07j-lab/LogParser)
+
+---
+
+### 5. Small Custom Automation Utilities
+**Problem:** many internal workflows need narrow, reliable utilities instead of large complex systems.
+
+**What this solves:**
+- create focused CLI-first internal tools
+- automate repetitive file and data tasks
+- combine utility logic into repeatable workflows
+- support practical small-scale automation delivery
+
+**Relevant foundation:** Automation CLI Toolkit
+
 ## Why This Toolkit
 
 The toolkit is positioned around practical delivery, not experimental demos.
